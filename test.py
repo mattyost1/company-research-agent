@@ -4,8 +4,8 @@ from tavily import TavilyClient
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
-client = anthropic.Anthropic(api_key="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")
-tavily = TavilyClient(api_key="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")
+client = anthropic.Anthropic(api_key="your-anthropic-key-here")
+tavily = TavilyClient(api_key="your-tavily-key-here")
 
 # --- TOOLS ---
 
